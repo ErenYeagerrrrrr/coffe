@@ -1,0 +1,68 @@
+.quality__img {
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-bottom: -85px;
+}
+.quality__img_sub{
+    width: 100%;
+}
+
+.quality__content {
+    text-align: center;
+    background-image: url(/img/qualitybg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 142px 24px 62px 24px;
+    border-radius:  20px;
+}
+
+.quality__title {
+    color: rgb(254, 252, 247);
+    font-family: Fraunces;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+.quality__text {
+    color: rgb(254, 252, 247);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: 0.8;
+}
+
+@media screen and (min-width:670px) { 
+    .quality__img {
+        padding-left: 48px;
+        padding-right: 48px;
+   }
+}
+
+@media screen and (min-width:1000px) {
+    .quality__img{
+        background-image: url(/img/commitment.jpg);
+        background-repeat: no-repeat;
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        left: 57%;
+        top: -21%;
+        border-radius: 10px;
+    }
+
+    .quality__block{
+        position: relative;
+    }
+
+    .quality__img_sub{
+        display: none;
+    }
+
+    .quality__content{
+        text-align: left;
+        padding-right: 47%;
+        padding-left: 78px;
+    }
+}
